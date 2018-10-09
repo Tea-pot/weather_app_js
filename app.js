@@ -6,7 +6,7 @@ const weatherLocation = storage.getLocationData();
 // initializing object
 const weather = new Weather(weatherLocation.city, weatherLocation.country);
 //UI -.pass data to UI
-const ui = new UI();
+const ui = new UI(); 
 
 
 //get weather on DOMLoad
